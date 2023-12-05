@@ -53,12 +53,6 @@ const Timeline = () => {
               <li>OOP · DSA · Systems Programming</li>
               <li>DBMS · OS · Design Principles · Distributed Systems</li>
               <li>Machine Learning · AI</li>
-              <li>Computer Graphics · Digital Image Processing</li>
-              <li>Networking · Cryptography and Network Security</li>
-              <li>
-                Computer Organization and Architecture · Peripherals and
-                Interfacing
-              </li>
             </ul>
           </div>
         </div>

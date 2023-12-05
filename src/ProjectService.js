@@ -10,8 +10,8 @@ const ProjectService = {
       image: ['https://img.icons8.com/neon/96/web-design.png'],
       demo: 'https://drive.google.com/file/d/1-vwTsQY1UzHb4N-2Wjm7T5Ul7Hs3778x/view?usp=drive_link',
 
-      figma: 'https://www.figma.com/proto/4oDwPLZQw1JJ6Ymp8N8iW2/Not-So-Classroom',
-      github: 'https://github.com/tirednemo/Bookworm-Bear',
+      figma: 'https://www.figma.com/proto/maC7lXUcaDohw2TaznQhHs/Build-Budget?type=design&node-id=5-16&t=kY89WmLSEbLXM83G-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A16&mode=design',
+      github: 'https://github.com/tirednemo/Build-Budget',
 
       startDate: new Date('2023-08-01'),
       endDate: new Date('2023-08-01'),
@@ -27,7 +27,7 @@ const ProjectService = {
       demo: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FmaC7lXUcaDohw2TaznQhHs%2FBuild-Budget%3Ftype%3Ddesign%26node-id%3D5-16%26t%3DkY89WmLSEbLXM83G-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D5%253A16%26mode%3Ddesign',
 
       figma: 'https://www.figma.com/proto/maC7lXUcaDohw2TaznQhHs/Build-Budget?type=design&node-id=5-16&t=kY89WmLSEbLXM83G-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A16&mode=design',
-      github: 'https://github.com/tirednemo/BongoFoodies',
+      github: 'https://github.com/tirednemo/Build-Budget',
 
       startDate: new Date('2023-08-01'),
       endDate: new Date('2023-08-01'),
@@ -42,8 +42,8 @@ const ProjectService = {
       image: ['https://img.icons8.com/neon/96/web-design.png'],
       demo: 'https://drive.google.com/file/d/1-vwTsQY1UzHb4N-2Wjm7T5Ul7Hs3778x/view?usp=drive_link',
 
-      figma: 'https://www.figma.com/proto/4oDwPLZQw1JJ6Ymp8N8iW2/Not-So-Classroom',
-      github: 'https://github.com/tirednemo/SimCity-LiveIt',
+      figma: 'https://www.figma.com/proto/maC7lXUcaDohw2TaznQhHs/Build-Budget?type=design&node-id=5-16&t=kY89WmLSEbLXM83G-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A16&mode=design',
+      github: 'https://github.com/tirednemo/Build-Budget',
 
       startDate: new Date('2023-08-01'),
       endDate: new Date('2023-08-01'),
@@ -58,8 +58,8 @@ const ProjectService = {
       image: ['https://img.icons8.com/neon/96/web-design.png'],
       demo: 'https://drive.google.com/file/d/1-vwTsQY1UzHb4N-2Wjm7T5Ul7Hs3778x/view?usp=drive_link',
 
-      figma: 'https://www.figma.com/proto/4oDwPLZQw1JJ6Ymp8N8iW2/Not-So-Classroom',
-      github: 'https://github.com/tirednemo/Not-So-Classroom',
+      figma: 'https://www.figma.com/proto/maC7lXUcaDohw2TaznQhHs/Build-Budget?type=design&node-id=5-16&t=kY89WmLSEbLXM83G-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A16&mode=design',
+      github: 'https://github.com/tirednemo/Build-Budget',
 
       startDate: new Date('2023-08-01'),
       endDate: new Date('2023-08-01'),
@@ -74,7 +74,7 @@ const ProjectService = {
       image: ['https://img.icons8.com/neon/96/web-design.png'],
       demo: 'https://drive.google.com/file/d/1-vwTsQY1UzHb4N-2Wjm7T5Ul7Hs3778x/view?usp=drive_link',
 
-      figma: 'https://www.figma.com/proto/4oDwPLZQw1JJ6Ymp8N8iW2/Not-So-Classroom',
+      figma: 'https://www.figma.com/proto/maC7lXUcaDohw2TaznQhHs/Build-Budget?type=design&node-id=5-16&t=kY89WmLSEbLXM83G-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A16&mode=design',
       github: 'https://github.com/tirednemo/Build-Budget',
 
       startDate: new Date('2023-08-01'),
@@ -90,8 +90,8 @@ const ProjectService = {
       image: ['https://img.icons8.com/neon/96/web-design.png'],
       demo: 'https://drive.google.com/file/d/1-vwTsQY1UzHb4N-2Wjm7T5Ul7Hs3778x/view?usp=drive_link',
 
-      figma: 'https://www.figma.com/proto/4oDwPLZQw1JJ6Ymp8N8iW2/Not-So-Classroom',
-      github: 'https://github.com/tirednemo/Cadence',
+      figma: 'https://www.figma.com/proto/maC7lXUcaDohw2TaznQhHs/Build-Budget?type=design&node-id=5-16&t=kY89WmLSEbLXM83G-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A16&mode=design',
+      github: 'https://github.com/tirednemo/Build-Budget',
 
       startDate: new Date('2023-08-01'),
       endDate: new Date('2023-08-01'),
@@ -106,8 +106,8 @@ const ProjectService = {
       image: ['https://img.icons8.com/neon/96/web-design.png'],
       demo: 'https://drive.google.com/file/d/1-vwTsQY1UzHb4N-2Wjm7T5Ul7Hs3778x/view?usp=drive_link',
 
-      figma: 'https://www.figma.com/proto/4oDwPLZQw1JJ6Ymp8N8iW2/Not-So-Classroom',
-      github: 'https://github.com/tirednemo/YumCast',
+      figma: 'https://www.figma.com/proto/maC7lXUcaDohw2TaznQhHs/Build-Budget?type=design&node-id=5-16&t=kY89WmLSEbLXM83G-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A16&mode=design',
+      github: 'https://github.com/tirednemo/Build-Budget',
 
       startDate: new Date('2023-08-01'),
       endDate: new Date('2023-08-01'),
