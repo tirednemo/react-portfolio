@@ -1,0 +1,179 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.hero-gif {
+  height: 30rem;
+}
+
+.bio {
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 5px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+.bio-text {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+.section-header {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.more-about {
+  padding: 0rem 6rem;
+}
+
+.more-about p {
+  line-height: var(--line-height);
+  padding: 0.2rem;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills-container > div {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-container img {
+  width: 12%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0px 10px var(--primary-shadow);
+  padding: 1.25rem;
+  margin: 10px 15px;
+}
+
+.skills-container img:hover {
+  animation: pulse;
+  animation-duration: 0.5s;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.project-nav {
+  background-color: transparent;
+  border: 0;
+}
+
+.project-nav:hover {
+  animation: jello;
+  animation-duration: 1s;
+}
+
+.timeline-container {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  position: relative;
+  &:before {
+    z-index: 2;
+    top: -1rem;
+    bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    content: "";
+    width: 5px;
+    border-radius: 5px;
+    background-color: var(--primary-shadow);
+    box-shadow: 0 0px 10px var(--primary-shadow);
+  }
+}
+
+.contact {
+  padding: 0rem 10rem;
+  margin-bottom: 3rem;
+}
+
+.contact-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.contact-pic img {
+  height: 15rem;
+}
+
+.contact-pic p {
+  margin: 0.5rem 1rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.socicon {
+  height: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 720px) {
+  /*changes reflects on screen with a width of 720px and below*/
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-gif {
+    margin: 0rem 10rem 0rem 10rem;
+    /* t r b l */
+    height: 25rem;
+  }
+
+  .more-about {
+    padding: 0rem 3.5rem;
+  }
+
+  .skills-container img {
+    width: 5.875rem;
+    height: 5.25rem;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact {
+    padding: 0rem 2rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-pic {
+    display: flex;
+  }
+
+  .contact-pic img {
+    height: 10rem;
+  }
+}

@@ -1,0 +1,25 @@
+.project-card {
+    text-align: center;
+    width: 21.875rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--primary-shadow);
+    padding-bottom: 20px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.project-pic {
+    width: 50%;
+    margin: auto;
+}
+
+.project-title {
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+.project-details {
+    margin-bottom: 10px;
+}
+
+
