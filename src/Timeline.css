@@ -62,3 +62,54 @@
   border-radius: 100%;
   z-index: 2;
 }
+
+
+@media screen and (max-width: 720px) {
+  /*changes reflects on screen with a width of 720px and below*/
+  .timeline-item {
+    width: 70vw;
+    margin-bottom: 1rem;
+    position: relative;
+    &:before,
+    &:after {
+      content: "";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+  }
+
+  .timeline-item:nth-child(even) {
+    .timeline-panel {
+      float: right;
+    }
+    .timeline-date {
+      text-align: left;
+    }
+  }
+
+
+  .timeline-panel {
+    float: right;
+    position: relative;
+    text-align: left;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0 0px 10px var(--primary-shadow);
+    padding: 1.25rem;
+    margin: 10px 15px;
+  }
+  .timeline-date {
+    position: relative;
+    text-align: left;
+    width: 90%;
+    padding: 0.5rem;
+    margin: 10px 15px;
+  }
+
+  .timeline-badge > img {
+    left: 0%;
+    transform: translate(-90%, 0%);
+  }
+}

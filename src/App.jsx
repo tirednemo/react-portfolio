@@ -31,7 +31,7 @@ function App() {
             Umme Tasnim Hasan
           </h1>
 
-          <ul className="navigation">
+          <ul className={`navigation ${isMenuOpen ? 'show' : ''}`}>
             <li>
               <a href="#about" className="nav-link" onClick={()=>toggleMenu()}>
                 About
